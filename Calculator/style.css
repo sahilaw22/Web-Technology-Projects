@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(199, 196, 196);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: #111827;
+    padding: 30px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.6);
+}
+.screen {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1f2937;
+}
+#display {
+    width: 100%;
+    font-size: 3rem;
+    text-align: end;
+    color: aliceblue;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+button {
+font-size: 1.5rem;
+border-radius: 16px;
+border: none;
+cursor: pointer;
+height: 65px;
+width: 65px;
+transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    border-radius: 100px;
+}
+.cal-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.extra {
+    background-color: #A7BBE7FF;
+    color: white;
+    font-family: arial;
+    
+}
+#equal {
+    background-color: #EDA023FF;
+    color: white;
+    text-size: 100%;
+    font-family: arial;
+    grid-column: span 2;
+    width: 100%;
+    border-radius: 14px;
+}
+#display {
+    width: 100%;
+    font-size: 3rem;
+    text-align: end;
+    color: aliceblue;
+    background-color: #1f2937;
+    border: none;
+    outline: none;  
+}
